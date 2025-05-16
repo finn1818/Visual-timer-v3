@@ -1,0 +1,51 @@
+body {
+    background: url('assets/grass_tile.png');
+    font-family: monospace;
+    image-rendering: pixelated;
+    margin: 0;
+    padding: 0;
+}
+.app-container {
+    width: 320px;
+    margin: 0 auto;
+    background: url('assets/wood_panel.png');
+    padding: 8px;
+}
+.title {
+    font-size: 20px;
+    text-align: center;
+    color: #542f1a;
+}
+button {
+    background: url('assets/button_bg.png');
+    width: 128px;
+    height: 24px;
+    border: none;
+    font-weight: bold;
+    color: #3b210d;
+    image-rendering: pixelated;
+}
+.class-selector, .avatar-stats {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.timer-bar {
+    background: url('assets/wood_panel.png');
+    height: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+#timerFill {
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
+.avatar-img {
+    width: 32px;
+    height: 48px;
+}
+.break-btn {
+    display: block;
+    margin: 20px auto;
+}
