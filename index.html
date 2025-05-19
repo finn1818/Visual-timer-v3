@@ -1,1 +1,42 @@
-<!-- Placeholder -->
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadence Quest</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="game">
+    <h1>Cadence Quest</h1>
+    <img id="startBtn" src="Assets/start_button.png" alt="Start Button">
+    <div id="classSelection">
+      <h2>Select Class</h2>
+      <div class="buttons">
+        <img class="classBtn" id="btn-SS" src="Assets/button_SS.png" alt="Social Studies">
+        <img class="classBtn" id="btn-ELA" src="Assets/button_ELA.png" alt="ELA">
+        <img class="classBtn" id="btn-Math" src="Assets/button_Math.png" alt="Math">
+        <img class="classBtn" id="btn-Science" src="Assets/button_Science.png" alt="Science">
+      </div>
+    </div>
+    <div id="progressContainer">
+      <img id="clockIcon" src="Assets/icon_clock.png" alt="Clock">
+      <div id="progressBar">
+        <div id="progressFill"></div>
+      </div>
+      <span id="timer">40:00</span>
+    </div>
+    <div id="stats">
+      <img id="avatar" src="Assets/avatar.png" alt="Avatar">
+      <div id="statsInfo">
+        <div><img class="statIcon" src="Assets/icon_star.png" alt="Points Icon"> Points: <span id="points">0</span></div>
+        <div><img class="statIcon" src="Assets/icon_medal.png" alt="Level Icon"> Level: <span id="level">1</span></div>
+        <div><img class="statIcon" src="Assets/icon_coin.png" alt="Coins Icon"> Coins: <span id="coins">0</span></div>
+      </div>
+    </div>
+    <img id="breakBtn" src="Assets/break_button.png" alt="Take a Break">
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
